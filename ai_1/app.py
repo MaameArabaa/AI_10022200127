@@ -437,14 +437,14 @@ def render_sidebar() -> dict[str, Any]:
 def main() -> None:
     _init_session_state()
     st.set_page_config(
-        page_title="Insight Engine — Academic City",
+        page_title="Introduction to Ai — Academic City",
         page_icon="📚",
         layout="wide",
     )
 
     cfg = render_sidebar()
 
-    st.title("Academic City RAG")
+    st.title("Academic City - Introduction to Ai")
     st.markdown(
         """
 This app runs a **fully manual** RAG stack: ingest → chunk → embed →

@@ -1,0 +1,13 @@
+[project]
+name = "ai_1"
+version = "0.1.0"
+dependencies = [
+"pandas>=2.0.0",
+"pymupdf>=1.24.0",
+"numpy>=1.24.0",
+"faiss-cpu>=1.8.0",
+"sentence-transformers>=3.0.0",
+"torch>=2.0.0",
+"streamlit>=1.28.0",
+"python-dotenv",
+]
