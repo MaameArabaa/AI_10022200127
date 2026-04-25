@@ -444,7 +444,7 @@ def main() -> None:
 
     cfg = render_sidebar()
 
-    st.title("Academic City - Insight Engine")
+    st.title("Academic City RAG")
     st.markdown(
         """
 This app runs a **fully manual** RAG stack: ingest → chunk → embed →
